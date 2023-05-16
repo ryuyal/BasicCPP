@@ -3,3 +3,4 @@ project(smart_pointer)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(smart_ptr smart_ptr.cpp)
+add_executable(smart_ptr_impl smart_ptr_impl.cpp)

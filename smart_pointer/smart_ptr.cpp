@@ -37,10 +37,10 @@ int main(){
     /*
      * 使用shared_ptr
      */
+    cout << "Use Shared Pointer" << endl;
     shared_ptr<int> sp = make_shared<int>(10);
     cout << *sp << endl;
     cout << "---------------------" << endl;
 
     test();
-
 }

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.23)
+project(data_type)
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(integer integer.cpp)
+add_executable(sizeof sizeof.cpp)
+add_executable(float float.cpp)
+add_executable(char char.cpp)
+add_executable(bool bool.cpp)
+add_executable(input input.cpp)

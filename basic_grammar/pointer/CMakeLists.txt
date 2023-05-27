@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.23)
+project(pointer)
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(definition_and_usage definition_and_usage.cpp)
+add_executable(const_pointer const_pointer.cpp)
+add_executable(pointer_and_array pointer_and_array.cpp)
+add_executable(pointer_and_function pointer_and_function.cpp)
+add_executable(pointer_arr_function pointer_arr_function.cpp)
